@@ -65,6 +65,6 @@ angular
 
 ```html
 <ul>
-	<li ng-replace="row in ListData"><a href="/show/{{ row.id }}">{{ row.title }}</li>
+	<li ng-repeat="row in ListData"><a href="/show/{{ row.id }}">{{ row.title }}</li>
 </ul>
 ```
